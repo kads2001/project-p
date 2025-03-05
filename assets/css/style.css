@@ -1,0 +1,422 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFF !important;
+}
+  
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 0px;
+}
+
+/* Navigation Dots */
+.nav-dots {
+    position: fixed;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-dot {
+    width: 12px;
+    height: 12px;
+    border: 2px solid #52616a;
+    border-radius: 50%;
+    background: #c9d6de;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.nav-dot:hover,
+.nav-dot.is-active {
+    transform: scale(1.8);
+    background: transparent;
+}
+
+/* Section Styles */
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.section:nth-of-type(1) {
+    background-color: #0000004a;
+}
+.section:nth-of-type(2) {
+    background-color: #00000073;
+}
+.section:nth-of-type(3) {
+    background-color:#000000b3;
+}
+
+.section__heading {
+    color: white;
+    font-size: 32px;
+    text-transform: capitalize;
+}
+.temp-1-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+}
+
+.temp-1  h1{
+    color: #fff;
+    font-family: "Alumni Sans", Sans-serif;
+    font-size: 120px;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+.temp-1  h2{
+    color: #fff;
+    font-family: "Catamaran", Sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: none;
+    line-height: 32px;
+    span{
+        padding: 0 50px;
+        color: #fff;
+    }
+}
+
+.temp-2  h1{
+    color: #fff;
+    font-family: "Alumni Sans", Sans-serif;
+    font-size: 120px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 120px;
+    margin-bottom: 50px;
+   
+}
+.temp-2  p{
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto", Sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+.elementor-section {
+    position: fixed;
+    z-index: -1;
+}
+/* .overlay-main{
+    background-color: #00000078;
+    z-index: 2;
+    height: 100vh;
+} */
+.slider-main{
+    background-color:#0000008a;
+}
+
+.header .logo{
+    width: 180px;
+    padding: 10px 0px;
+    img{
+        width: 100%;
+    }
+}
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex
+;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 150px;
+    height: fit-content;
+}
+.header .menu .line{
+    height: 2px;
+    width: 30px;
+    background: white;
+    MARGIN: 10PX 0PX;
+
+}
+
+.header .menu {
+
+    border: 2px solid white;
+    padding: 8px 15px;
+    border-radius: 56px;
+}
+.temp3-cards {
+    display: flex
+    ;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 60px;
+}
+.temp3-card{
+    width: 20%;
+    position: relative;
+}
+.temp-3-heading h1{
+    color: #fff;
+    font-family: "Alumni Sans", Sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+.temp3-cardimg img{
+    width: 100%;
+    height: 100%;
+}
+.temp3-cardcontent h3{
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 20px
+}
+.temp3-cardcontent a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid #FFF;
+    padding: 16px;
+    opacity: 0;
+    transition: 0.9s;
+}
+.temp3-cardcontent{
+    position: absolute;
+    top: 35%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.card-temp3-overlay{
+    background-color: rgba(0, 0, 0, 0.10);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: 0.9s;
+}
+.temp3-card:hover .card-temp3-overlay{
+    background-color: rgba(0, 0, 0, 0.75);
+    transition: 0.9s;
+}
+.temp3-card:hover a{
+    opacity: 1;
+    transition: 0.9s;
+}
+
+
+
+/* ---------paralex sectio------------ */
+.section-container {
+    width: 100%;
+}
+
+.section-background {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parallax1{
+    display: block;
+}
+
+.parallax {
+    background-image: url("https://88.pictures/wp-content/uploads/2023/04/Samurai-Rabbit-1.jpg");
+}
+
+.parallax1 {
+    background-image: url("https://images.unsplash.com/photo-1610128114197-485d933885c5?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjIzOTA2Nzc&ixlib=rb-1.2.1&q=80");
+}
+
+.parallax2 {
+    background-image: url("https://images.unsplash.com/photo-1562095241-8c6714fd4178?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjIzOTA5OTg&ixlib=rb-1.2.1&q=80");
+}
+
+.parallax3 {
+    background-image: url("https://images.unsplash.com/photo-1543722530-d2c3201371e7?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjIzOTExOTg&ixlib=rb-1.2.1&q=80");
+}
+
+.text-block {
+    margin: 75px;
+    font-size: 22px;
+}
+
+.temp-4area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+/* .temp4cards{
+    display: flex
+    ;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 50px;
+} */
+.temp4card img{
+    width: 100%
+}   
+/* .temp4card{
+    width: 20%;
+}  */
+.temp4-left{
+    width: 30%;
+    z-index: 2;
+    /* padding: 200px; */
+}
+.temp4-right{
+    width: 70%;
+}
+.temp4-left-content h2{
+    font-size: 45px;
+    position: absolute;
+    top: 100px;
+    
+}
+.inner-content-temp4left h3{
+    font-size: 38px;
+}
+.inner-content-temp4left p{
+    font-size: 16px;
+    
+}
+.section-background {
+    position: relative;
+}
+.parallax-overlay{
+    background: #000000bf;
+    position: absolute;
+    z-index: 1;
+    height: 100vh;
+    width: 100%;
+}
+.temp-4{
+    z-index: 2;
+    padding: 200px;
+}
+.swiper-button-next, .swiper-button-prev {
+    opacity: 1 !important;
+    visibility: visible !important;
+    color: #fff; /* Change button color */
+    font-size: 30px;
+}
+.swiper-pagination {
+    margin-top: 10px;
+}
+.text-block {
+    color: #fff;
+}
+.temp-5-container{
+    overflow: hidden;
+    position: relative;
+    height: 80vh;
+}
+.temp5-content{
+    position: absolute;
+    top: 0;
+    padding: 240px;
+    z-index: 2;
+    h1{
+        color: #fff;
+        font-size: 70px;
+        margin-bottom: 30px;
+    }
+    h2{
+        color: #fff;
+        font-size: 45px;
+    }
+    p{
+        color: #e4dddd;
+        font-size: 24px;
+    }
+}
+.temp-6cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    h2{
+        text-align: center;
+        color: #fff;
+    }
+}
+.temp-6{
+    background-color: black;
+    padding:50px 70px;
+}
+.temp6-card{
+    width: 10%;
+}
+/* .temp-7moving-slider{
+    display: flex
+    ;
+        justify-content: center;
+        align-items: anchor-center;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0 50px;
+        gap: 20px;
+} */
+.temp-7moving-slider{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.temp-7heading h2{
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.temp-7{
+
+padding:50px 150px;
+background-color: #000;
+}
+.copy-footer{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding:50px 100px;
+    border-top:1px solid #fff;
+}
