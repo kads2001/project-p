@@ -104,7 +104,6 @@ flex-direction: column;
 .temp4-left{
     width: 100%;
     z-index: 2;
-    margin-bottom: 30px;
 }
 .temp4-left-content h2 {
     font-size: 20px;
